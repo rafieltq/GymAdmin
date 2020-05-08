@@ -1,0 +1,8 @@
+C:\Users\R4FI3L\Desktop\Gym Admin\WAPP_GYMADMIN\bin\WAPP_GYMADMIN.dll
+C:\Users\R4FI3L\Desktop\Gym Admin\WAPP_GYMADMIN\bin\WAPP_GYMADMIN.pdb
+C:\Users\R4FI3L\Desktop\Gym Admin\WAPP_GYMADMIN\bin\WAPP_GYMADMIN.xml
+C:\Users\R4FI3L\Desktop\Gym Admin\WAPP_GYMADMIN\obj\Debug\WAPP_GYMADMIN.Resources.resources
+C:\Users\R4FI3L\Desktop\Gym Admin\WAPP_GYMADMIN\obj\Debug\WAPP_GYMADMIN.vbproj.GenerateResource.Cache
+C:\Users\R4FI3L\Desktop\Gym Admin\WAPP_GYMADMIN\obj\Debug\WAPP_GYMADMIN.dll
+C:\Users\R4FI3L\Desktop\Gym Admin\WAPP_GYMADMIN\obj\Debug\WAPP_GYMADMIN.xml
+C:\Users\R4FI3L\Desktop\Gym Admin\WAPP_GYMADMIN\obj\Debug\WAPP_GYMADMIN.pdb
