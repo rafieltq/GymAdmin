@@ -32,9 +32,12 @@
                 <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
                     <Items>
                         <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Inicio ⮚"/>
-                        <asp:MenuItem Text="Clientes ⮚" Value="Nosotros"></asp:MenuItem>
-                        <asp:MenuItem Text="Utileria ⮚" Value="Catalogo"></asp:MenuItem>
-                        <asp:MenuItem Text="Pagos ⮚" Value="Pagos ⮚"></asp:MenuItem>
+                        <asp:MenuItem Text="Clientes ⮚" Value="Nosotros" 
+                            NavigateUrl="~/Admin/Cliente/wfrm_cliente.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Utileria ⮚" Value="Catalogo" 
+                            NavigateUrl="~/Admin/Utileria/wfrm_utileria.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Pagos ⮚" Value="Pagos ⮚" 
+                            NavigateUrl="~/Admin/Pagos/wfrm_pagos.aspx"></asp:MenuItem>
                         <asp:MenuItem NavigateUrl="~/About.aspx" Text="Acerca de ⮚"/>
                     </Items>
                 </asp:Menu>
@@ -45,9 +48,7 @@
         </div>
         <div class="clear">
         </div>
-    
-    <div class="footer">
-    </div>
+        
     </form>
 </body>
 </html>

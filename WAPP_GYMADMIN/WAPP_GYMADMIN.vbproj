@@ -91,6 +91,10 @@
     <Content Include="Account\ChangePasswordSuccess.aspx" />
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
+    <Content Include="Admin\Cliente\wfrm_cliente.aspx" />
+    <Content Include="Admin\Pagos\wfrm_pagos.aspx" />
+    <Content Include="Admin\Utileria\wfrm_utileria.aspx" />
+    <Content Include="App_Data\GymData.mdb" />
     <Content Include="img\Pesas.png" />
     <Content Include="img\Salta.png" />
     <Content Include="Styles\Site.css" />
@@ -141,6 +145,27 @@
     </Compile>
     <Compile Include="Account\Register.aspx.vb">
       <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Cliente\wfrm_cliente.aspx.designer.vb">
+      <DependentUpon>wfrm_cliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Cliente\wfrm_cliente.aspx.vb">
+      <DependentUpon>wfrm_cliente.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Pagos\wfrm_pagos.aspx.designer.vb">
+      <DependentUpon>wfrm_pagos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Pagos\wfrm_pagos.aspx.vb">
+      <DependentUpon>wfrm_pagos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Utileria\wfrm_utileria.aspx.designer.vb">
+      <DependentUpon>wfrm_utileria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Utileria\wfrm_utileria.aspx.vb">
+      <DependentUpon>wfrm_utileria.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Default.aspx.vb">
@@ -201,9 +226,7 @@
     </None>
     <Content Include="Site.Master" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
   <ProjectExtensions>
