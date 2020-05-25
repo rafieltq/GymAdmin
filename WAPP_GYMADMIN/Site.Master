@@ -1,6 +1,7 @@
 ﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site.master.vb" Inherits="WAPP_GYMADMIN.Site" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<link  rel="icon"   href="img/Pesas.png" type="image/png" />
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -21,6 +22,7 @@
                 <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
                     <AnonymousTemplate>
                         [ <a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">Iniciar sesión</a> ]
+                        [ <asp:HyperLink ID="RegisterHyperLink" runat="server" EnableViewState="false">Registrarse</asp:HyperLink> ]
                     </AnonymousTemplate>
                     <LoggedInTemplate>
                         Pantalla de bienvenida <span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
@@ -32,12 +34,24 @@
                 <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
                     <Items>
                         <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Inicio ⮚"/>
-                        <asp:MenuItem Text="Clientes ⮚" Value="Nosotros" 
-                            NavigateUrl="~/Admin/Cliente/wfrm_cliente.aspx"></asp:MenuItem>
-                        <asp:MenuItem Text="Utileria ⮚" Value="Catalogo" 
-                            NavigateUrl="~/Admin/Utileria/wfrm_utileria.aspx"></asp:MenuItem>
-                        <asp:MenuItem Text="Pagos ⮚" Value="Pagos ⮚" 
-                            NavigateUrl="~/Admin/Pagos/wfrm_pagos.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Clientes ⮚" Value="Nosotros">
+                            <asp:MenuItem NavigateUrl="~/Admin/Cliente/wfrm_cliente.aspx" 
+                                Text="Buscar cliente" Value="Buscar cliente"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Admin/Cliente/wfrm_admin_cliente.aspx" 
+                                Text="Administrar" Value="Administrar"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Utileria ⮚" Value="Catalogo">
+                            <asp:MenuItem NavigateUrl="~/Admin/Utileria/wfrm_utileria.aspx" 
+                                Text="Buscar utilerias" Value="Buscar utilerias"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Admin/Utileria/wfrm_admin_utileria.aspx" 
+                                Text="Administrar" Value="Administrar"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Pagos ⮚" Value="Pagos ⮚">
+                            <asp:MenuItem NavigateUrl="~/Admin/Pagos/wfrm_pagos.aspx" Text="Buscar pagos" 
+                                Value="Buscar pagos"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Admin/Pagos/wfrm_admin_pagos.aspx" 
+                                Text="Administrar" Value="Administrar"></asp:MenuItem>
+                        </asp:MenuItem>
                         <asp:MenuItem NavigateUrl="~/About.aspx" Text="Acerca de ⮚"/>
                     </Items>
                 </asp:Menu>

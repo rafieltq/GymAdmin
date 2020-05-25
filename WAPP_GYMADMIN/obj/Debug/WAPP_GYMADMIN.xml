@@ -6,31 +6,7 @@ WAPP_GYMADMIN
 </name>
 </assembly>
 <members>
-<member name="F:WAPP_GYMADMIN.wfrm_cliente.GridView1">
-	<summary>
-Control GridView1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:WAPP_GYMADMIN.wfrm_cliente.GymDatos">
-	<summary>
-Control GymDatos.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:WAPP_GYMADMIN.wfrm_cliente.TextBox1">
-	<summary>
-Control TextBox1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:WAPP_GYMADMIN.Login.RegisterHyperLink">
+<member name="F:WAPP_GYMADMIN.Login.RegisterHyperLink">
 	<summary>
 Control RegisterHyperLink.
 </summary>
@@ -41,6 +17,86 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 </member><member name="F:WAPP_GYMADMIN.Login.LoginUser">
 	<summary>
 Control LoginUser.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WAPP_GYMADMIN.wfrm_admin_utileria.PanelControl">
+	<summary>
+Control PanelControl.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WAPP_GYMADMIN.wfrm_admin_utileria.Label1">
+	<summary>
+Control Label1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WAPP_GYMADMIN.wfrm_admin_utileria.TxtNombre">
+	<summary>
+Control TxtNombre.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WAPP_GYMADMIN.wfrm_admin_utileria.Label2">
+	<summary>
+Control Label2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WAPP_GYMADMIN.wfrm_admin_utileria.TxtCategoria">
+	<summary>
+Control TxtCategoria.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WAPP_GYMADMIN.wfrm_admin_utileria.Label3">
+	<summary>
+Control Label3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WAPP_GYMADMIN.wfrm_admin_utileria.TxtCantidad">
+	<summary>
+Control TxtCantidad.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WAPP_GYMADMIN.wfrm_admin_utileria.BtnGuardar">
+	<summary>
+Control BtnGuardar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WAPP_GYMADMIN.wfrm_admin_utileria.GridView1">
+	<summary>
+Control GridView1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WAPP_GYMADMIN.wfrm_admin_utileria.GymData">
+	<summary>
+Control GymData.
 </summary>
 	<remarks>
 Campo generado automáticamente.
@@ -65,6 +121,198 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 </member><member name="F:WAPP_GYMADMIN.ChangePassword.ChangeUserPassword">
 	<summary>
 Control ChangeUserPassword.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WAPP_GYMADMIN.wfrm_admin_pagos.PanelControl">
+	<summary>
+Control PanelControl.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WAPP_GYMADMIN.wfrm_admin_pagos.Label1">
+	<summary>
+Control Label1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WAPP_GYMADMIN.wfrm_admin_pagos.TxtNombre">
+	<summary>
+Control TxtNombre.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WAPP_GYMADMIN.wfrm_admin_pagos.Label2">
+	<summary>
+Control Label2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WAPP_GYMADMIN.wfrm_admin_pagos.TxtFecha">
+	<summary>
+Control TxtFecha.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WAPP_GYMADMIN.wfrm_admin_pagos.Label3">
+	<summary>
+Control Label3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WAPP_GYMADMIN.wfrm_admin_pagos.TxtTipo">
+	<summary>
+Control TxtTipo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WAPP_GYMADMIN.wfrm_admin_pagos.Label4">
+	<summary>
+Control Label4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WAPP_GYMADMIN.wfrm_admin_pagos.TxtMonto">
+	<summary>
+Control TxtMonto.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WAPP_GYMADMIN.wfrm_admin_pagos.BtnGuardar">
+	<summary>
+Control BtnGuardar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WAPP_GYMADMIN.wfrm_admin_pagos.GridView1">
+	<summary>
+Control GridView1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WAPP_GYMADMIN.wfrm_admin_pagos.GymData">
+	<summary>
+Control GymData.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WAPP_GYMADMIN.wfrm_admin_cliente.PanelControl">
+	<summary>
+Control PanelControl.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WAPP_GYMADMIN.wfrm_admin_cliente.Label1">
+	<summary>
+Control Label1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WAPP_GYMADMIN.wfrm_admin_cliente.TxtNombre">
+	<summary>
+Control TxtNombre.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WAPP_GYMADMIN.wfrm_admin_cliente.Label2">
+	<summary>
+Control Label2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WAPP_GYMADMIN.wfrm_admin_cliente.TxtApellido">
+	<summary>
+Control TxtApellido.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WAPP_GYMADMIN.wfrm_admin_cliente.Label3">
+	<summary>
+Control Label3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WAPP_GYMADMIN.wfrm_admin_cliente.TxtEdad">
+	<summary>
+Control TxtEdad.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WAPP_GYMADMIN.wfrm_admin_cliente.Label4">
+	<summary>
+Control Label4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WAPP_GYMADMIN.wfrm_admin_cliente.TxtCedula">
+	<summary>
+Control TxtCedula.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WAPP_GYMADMIN.wfrm_admin_cliente.BtnGuardar">
+	<summary>
+Control BtnGuardar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WAPP_GYMADMIN.wfrm_admin_cliente.GridView1">
+	<summary>
+Control GridView1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WAPP_GYMADMIN.wfrm_admin_cliente.GymData">
+	<summary>
+Control GymData.
 </summary>
 	<remarks>
 Campo generado automáticamente.

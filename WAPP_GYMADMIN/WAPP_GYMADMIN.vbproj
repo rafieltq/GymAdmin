@@ -91,8 +91,11 @@
     <Content Include="Account\ChangePasswordSuccess.aspx" />
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
+    <Content Include="Admin\Cliente\wfrm_admin_cliente.aspx" />
     <Content Include="Admin\Cliente\wfrm_cliente.aspx" />
+    <Content Include="Admin\Pagos\wfrm_admin_pagos.aspx" />
     <Content Include="Admin\Pagos\wfrm_pagos.aspx" />
+    <Content Include="Admin\Utileria\wfrm_admin_utileria.aspx" />
     <Content Include="Admin\Utileria\wfrm_utileria.aspx" />
     <Content Include="App_Data\GymData.mdb" />
     <Content Include="img\Pesas.png" />
@@ -147,6 +150,13 @@
       <DependentUpon>Register.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="Admin\Cliente\wfrm_admin_cliente.aspx.designer.vb">
+      <DependentUpon>wfrm_admin_cliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Cliente\wfrm_admin_cliente.aspx.vb">
+      <DependentUpon>wfrm_admin_cliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Admin\Cliente\wfrm_cliente.aspx.designer.vb">
       <DependentUpon>wfrm_cliente.aspx</DependentUpon>
     </Compile>
@@ -154,11 +164,25 @@
       <DependentUpon>wfrm_cliente.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="Admin\Pagos\wfrm_admin_pagos.aspx.designer.vb">
+      <DependentUpon>wfrm_admin_pagos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Pagos\wfrm_admin_pagos.aspx.vb">
+      <DependentUpon>wfrm_admin_pagos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Admin\Pagos\wfrm_pagos.aspx.designer.vb">
       <DependentUpon>wfrm_pagos.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admin\Pagos\wfrm_pagos.aspx.vb">
       <DependentUpon>wfrm_pagos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Utileria\wfrm_admin_utileria.aspx.designer.vb">
+      <DependentUpon>wfrm_admin_utileria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Utileria\wfrm_admin_utileria.aspx.vb">
+      <DependentUpon>wfrm_admin_utileria.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Admin\Utileria\wfrm_utileria.aspx.designer.vb">

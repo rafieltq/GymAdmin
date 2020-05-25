@@ -116,9 +116,9 @@ first child of the left and right table columns */
 
 .main
 {
-    padding: 0px 12px;
+    padding: 12px;
     margin: 12px 8px 8px 8px;
-    min-height: 420px;
+    height:500px;
 }
 
 .leftCol
@@ -150,26 +150,28 @@ div.menu ul
     list-style: none;
     margin: 0px;
     padding: 0px;
-    width:auto;
+
 }
 
 div.menu ul li a, div.menu ul li a:visited
 {
     background-color: #ff0000;
     color: #fff;
-    width:232px;
+    width:231px;
     text-align:center;
     display: block;
     line-height: 1.35em;
     padding: 4px 20px;
     text-decoration: none;
     white-space: nowrap;
+    transition-duration: 0.5s;
 }
 
 div.menu ul li a:hover
 {
     background-color: #000;
     color: #fff;
+    transition-duration: 0.5s;
     text-decoration: none;
     
 }
@@ -285,4 +287,34 @@ div.accountInfo
 {
     text-align: right;
     padding-right: 10px;
+}
+/*-----Table data grid style-----*/
+
+.dataGrid 
+{
+    width:417px;
+    height:auto;
+    -webkit-box-shadow: -11px 6px 66px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: -11px 6px 66px -10px rgba(0,0,0,0.75);
+    -box-shadow: -11px 6px 66px -10px rgba(0,0,0,0.75);
+}
+.panel
+{
+    background:#f6f6f6;
+    padding:5px;
+}
+.Btn
+{
+    width:125px;
+    height:36px;
+    border:none;
+    background-color:#ff0000;
+    color:white;
+    transition-duration: 0.5s;
+}
+.Btn:hover
+{
+     background-color:#000;
+     transition-duration: 0.5s;
+     transform:scale(1.2,1.2);
 }
