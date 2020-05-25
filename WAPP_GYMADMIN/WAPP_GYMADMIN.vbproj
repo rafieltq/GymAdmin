@@ -98,6 +98,7 @@
     <Content Include="Admin\Utileria\wfrm_admin_utileria.aspx" />
     <Content Include="Admin\Utileria\wfrm_utileria.aspx" />
     <Content Include="App_Data\GymData.mdb" />
+    <Content Include="img\logo.png" />
     <Content Include="img\Pesas.png" />
     <Content Include="img\Salta.png" />
     <Content Include="Styles\Site.css" />

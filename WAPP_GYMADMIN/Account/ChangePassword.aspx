@@ -4,7 +4,8 @@
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-    <h2>
+    <center>
+         <h2>
         Cambiar contraseña
     </h2>
     <p>
@@ -50,11 +51,12 @@
                     </p>
                 </fieldset>
                 <p class="submitButton">
-                    <asp:Button ID="CancelPushButton" runat="server" CausesValidation="False" CommandName="Cancel" Text="Cancelar"/>
-                    <asp:Button ID="ChangePasswordPushButton" runat="server" CommandName="ChangePassword" Text="Cambiar contraseña" 
-                         ValidationGroup="ChangeUserPasswordValidationGroup"/>
+                    <asp:Button ID="CancelPushButton" runat="server" class="Btn" CausesValidation="False" CommandName="Cancel" Text="Cancelar"/>
+                    &nbsp;<asp:Button ID="ChangePasswordPushButton" runat="server" CommandName="ChangePassword" Text="Cambiar contraseña" 
+                         ValidationGroup="ChangeUserPasswordValidationGroup" class="Btn"/>
                 </p>
             </div>
         </ChangePasswordTemplate>
     </asp:ChangePassword>
+    </center>
 </asp:Content>

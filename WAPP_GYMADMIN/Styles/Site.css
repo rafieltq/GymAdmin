@@ -8,7 +8,7 @@ body
     font-family:Roboto;
     margin: 0px;
     padding: 0px;
-    color: #696969;
+    color: #000;
 }
 
 a:link, a:visited
@@ -157,7 +157,6 @@ div.menu ul li a, div.menu ul li a:visited
 {
     background-color: #ff0000;
     color: #fff;
-    width:231px;
     text-align:center;
     display: block;
     line-height: 1.35em;
@@ -317,4 +316,22 @@ div.accountInfo
      background-color:#000;
      transition-duration: 0.5s;
      transform:scale(1.2,1.2);
+}
+/*About us*/
+
+.text1
+{
+    width:91%;
+    height:100px;
+    margin-top:10px;
+    padding:2px;
+    border-bottom:1px solid #696969;
+    float:left;
+        
+}
+.image
+{
+    width:400px;
+    height:auto;
+    float:left;
 }
